@@ -1,0 +1,33 @@
+.nav{
+    background-color: #2bc7c8;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    padding: 0px 20px 0px 20px ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-i{
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.bgc-h:hover{
+    background-color: #9bdfdf;
+}
+
+/* for mobile L */
+@media screen and (max-width: 600px) {
+    /* .nav{
+        width: 400px;
+    } */
+}

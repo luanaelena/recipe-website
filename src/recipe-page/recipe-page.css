@@ -1,0 +1,33 @@
+.recipe-container{
+    margin: 0px auto 0px auto;
+    width: 600px;
+}
+
+.recipe-container a{
+    color: #1B0DAB;
+    font-weight: bold;
+}
+
+.recipe-container a:hover{
+    text-decoration: underline;
+}
+
+.recipe-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+#recipe-description{
+    margin-top: 30px;
+}
+
+/* for mobile L */
+@media screen and (max-width: 600px){
+    .recipe-container{
+        margin: 0px auto 0px auto;
+        min-width: 350px;
+        width: 90%;
+    }
+}

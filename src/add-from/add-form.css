@@ -1,0 +1,78 @@
+.add-form{
+    margin: 70px auto 0px auto;
+    width: 500px;
+    padding: 10px;
+}
+
+.form{
+    padding: 5px 20px;
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#form-title{
+    margin-left: 20px;
+}
+
+#add-btn{
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    border: darkgreen 2px solid;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.parag{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: auto;
+}
+
+#description{
+    width: 450px;
+    height: 200px;
+}
+
+label{
+    font-weight: 500;
+}
+
+.error-message{
+    background-color: red;
+    white-space: pre;
+    font-weight: 500;
+}
+
+.add-form a{
+    color: #1B0DAB;
+    font-weight: bold;
+}
+
+.add-form a:hover{
+    text-decoration: underline;
+}
+
+/* for mobile L */
+@media screen and (max-width: 600px){
+    .add-form{
+        margin-left: 15px;
+    }
+
+    textarea#description{
+        width: 350px;
+    }
+
+    p.parag{
+        width: 350px;
+    }
+
+}

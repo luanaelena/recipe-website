@@ -1,0 +1,18 @@
+.recipe-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: -105px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.recipe-list-i a{
+    color: #1B0DAB;
+}
+
+.recipe-list-i a:hover{
+    text-decoration: underline;
+}

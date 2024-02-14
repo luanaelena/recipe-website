@@ -1,0 +1,44 @@
+.sign-up{
+    margin: 70px auto 0px auto;
+    width: 400px;
+    padding: 10px;
+}
+
+.form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.input-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#p-item{
+    margin-top: 5px;
+}
+
+#sign-up-title{
+    margin-left: 20px;
+}
+
+#create-btn{
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    border: darkgreen 2px solid;
+    color: white;
+    font-weight: 500;
+}
+
+/* for mobile L */
+@media screen and (max-width: 600px){
+    .sign-up{
+        margin-left: 15px;
+    }
+}

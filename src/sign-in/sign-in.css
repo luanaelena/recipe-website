@@ -1,0 +1,33 @@
+.sign-in{
+    margin: 70px auto 0px auto;
+    width: 400px;
+    padding: 10px;
+}
+
+
+.input-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+#sign-in-btn{
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    border: darkgreen 2px solid;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* for mobile L */
+@media screen and (max-width: 600px){
+    .sign-in{
+        margin-left: 15px;
+    }
+}

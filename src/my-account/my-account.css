@@ -1,0 +1,55 @@
+.my-account{
+    margin-top: 70px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+}
+
+#recipe-box{
+    background-color: lightgrey;
+    margin-bottom: 30px;
+    padding: 5px 0 20px 10px;
+    border-radius: 10px;
+}
+
+#add-btn{
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    border: darkgreen 2px solid;
+    color: white;
+    font-weight: 500;
+}
+
+#edit-btn{
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #F9A03F;
+    border: #d67908 2px solid;
+    font-weight: 500;
+}
+
+#delete-btn{
+    background-color: #DB5461;
+    border: darkred 2px solid;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#p-div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#recipe-owner{
+    margin-top: -20px;
+}
+
+#hello-text{
+    margin-left: 0px;
+}
